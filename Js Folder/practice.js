@@ -92,12 +92,12 @@
 // let a = "25";
 // let b = Number(a);
 // console.log(b + 5);       
-// console.log(typeof b);
 
-// let a = null;
-// let b = 10;
-// console.log(a + b);       
-// console.log(typeof (a + b));
+
+let a = null;
+let b = 10;
+console.log(a + b);       
+console.log(typeof (a + b));
 
 // let a = "5";
 // let b = 5;
@@ -184,6 +184,15 @@ console.log(arr6.sort()); //Sort method is used to arrange elements in ascending
 // console.log(false || "undefine");
 
 
+
+
+// let a = null;
+// let b = 0;
+// let result = a || b;
+// console.log(result);
+
+
+console.log(typeof typeof 1);
 
 
 
