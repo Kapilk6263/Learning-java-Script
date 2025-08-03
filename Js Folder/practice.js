@@ -147,8 +147,8 @@ console.log(arr6.sort()); //Sort method is used to arrange elements in ascending
 */ 
 
 
-// let arrp2 = [20, 30, 40];
-// console.log(arrp2.push(10) && arrp2.reverse().join(","));
+//    let arrp2 = [20, 30, 40];
+//    console.log(arrp2.push(10) && arrp2.reverse().join(","));
 
 
 // let a=[1,2,3,4,5];
@@ -167,6 +167,23 @@ console.log(arr6.sort()); //Sort method is used to arrange elements in ascending
 // let arr = [7, 8, 9];
 // console.log(arr.pop() || arr.push(10));
 
-let arrp1 = [5, 3, 7, 1];
-console.log(arrp1.splice(2, 1, 10) && arrp1.sort().join("-"));
+// let arrp1 = [5, 3, 7, 1];
+// console.log(arrp1.splice(2, 1, 10) && arrp1.sort().join("-"));
+
+
+
+// let a=10;
+// let b=20;
+// let c="10";
+// console.log(a+b+c);
+
+
+// console.log(false && "hello");
+
+
+// console.log(false || "undefine");
+
+
+
+
 
