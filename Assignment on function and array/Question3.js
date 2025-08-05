@@ -27,3 +27,12 @@ let arr=[22,34,22,56,45,34];
 });
 console.log("Duplicate values:", duplicate);
 
+
+// let dup = []
+// let result = arr.forEach((item, index, r) => {
+//     if(r.indexOf(item) !== index && !dup.includes(item)){
+//         dup.push(item)
+//     } 
+// }
+// )
+// console.log(dup)

@@ -76,5 +76,5 @@ let result = arr.forEach((item, index, r) => {
 )
 console.log(dup)
 
-// arr = arr.filter((element, index) => arr.indexOf(element) === index);
+// arr = arr.filter((element, index) => arr.indexOf(element) !== index && arr.includes);
 // console.log(arr);
