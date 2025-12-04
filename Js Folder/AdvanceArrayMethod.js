@@ -61,20 +61,46 @@ console.log(kk);
 // console.log(arr2);
 
 
-let arr = [34, 55, 65, 346, 77, 77, 55, 55, 55];
+// let arr = [34, 55, 65, 346, 77, 77, 55, 55, 55];
 
 
-// let result=arr.filter((element,i)=>arr.indexOf(element)!==i
+// // let result=arr.filter((element,i)=>arr.indexOf(element)!==i
+// // )
+// // console.log(result);
+// let dup = []
+// let result = arr.forEach((item, index, r) => {
+//     if(r.indexOf(item) !== index && !dup.includes(item)){
+//         dup.push(item)
+//     } 
+// }
 // )
-// console.log(result);
-let dup = []
-let result = arr.forEach((item, index, r) => {
-    if(r.indexOf(item) !== index && !dup.includes(item)){
-        dup.push(item)
-    } 
-}
-)
-console.log(dup)
+// console.log(dup)
 
 // arr = arr.filter((element, index) => arr.indexOf(element) !== index && arr.includes);
 // console.log(arr);
+
+ let arr=[1,2,3,4,5,6,10]
+// let k=arr.splice(2,4,5) 
+// console.log(k);
+// console.log(arr);
+
+// let k=arr.slice(2,4)
+// console.log(k);
+// console.log(arr);
+
+// let k=arr.includes(2,-5)
+// console.log(k);
+
+// let kk=arr.reduce((accu,ele)=>accu+=ele)
+// console.log(kk);
+
+// let arr2=[3]
+// console.log(arr2.reduce((accu,ele)=>accu+=ele));
+
+
+// console.log(arr.sort());
+// console.log(arr.sort((a,b)=>a-b));
+
+// console.log(arr.sort((a,b)=>b-a));
+
+

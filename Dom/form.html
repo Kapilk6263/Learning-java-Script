@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            height: 200px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+           border: 1px solid;
+        }
+        form{
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    
+   <section class="container">
+   <fieldset>
+    <legend>Form</legend>
+      <form action="" border="">
+       <div id="username"> <label for="username">username : </label>
+        <input type="text" placeholder="username"></div>
+       <div id="passward"> <label for="passward">passward : </label>
+        <input type="password" placeholder="passward"></div>
+       <div id="contact"> <label for="contact">contactNo: </label>
+        <input type="tel">
+</div>
+       <button id="button">submit</button>
+    </form>
+   </fieldset>
+   </section>
+
+   <script>
+    const form =document.querySelector("form");
+
+    form.addEventListener("submit",(e)=>{
+      e.preventDefault();
+      console.log("form is submitted");
+      
+    })
+   </script>
+</body>
+</html>

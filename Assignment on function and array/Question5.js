@@ -32,3 +32,5 @@ for(let i=0;i<arr.length;i++){
      (count==2 && console.log(arr[i],"prime number"));
      
 } 
+
+

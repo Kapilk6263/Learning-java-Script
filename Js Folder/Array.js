@@ -85,3 +85,14 @@
 // // console.log(([500, 90, 80, 70, 60].reverse().join("0")));
 
 // */
+
+//using array literals
+// let arr=[12,3,4];
+
+//using Array constructor
+// let arr2=new Array(4,4,4,4);
+// console.log(arr2);
+
+
+
+

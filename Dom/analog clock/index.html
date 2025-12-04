@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .clock{
+            height: 500px;
+            width: 500px;
+            border: 5px solid;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url("https://e7.pngegg.com/pngimages/547/237/png-clipart-black-analog-watch-illustration-clock-face-moving-faces-roman-numerals-watch-hand-alarm-clock-angle-white.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .second{
+            height: 190px;
+            width: 2px;
+            background-color: rgb(16, 16, 16);
+            position: absolute;
+            left: 50%;
+            top:9.4%;
+             transform-origin: bottom;
+        }
+         .minute{
+            height: 160px;
+            width: 6px;
+            background-color: rgb(85, 0, 255);
+            position: absolute;
+            left: 49.9%;
+            top:12.5%;
+             transform-origin: bottom;
+           
+        }
+         .hour{
+             height: 140px;
+            width: 12px;
+            background-color: red;
+            position: absolute;
+            left: 49.7%;
+            top:15.5%;
+            transform-origin: bottom;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="clock">
+        <div class="second"></div>
+        <div class="minute"></div>
+        <div class="hour"></div>
+    </section>
+
+  <script src="index.js"></script>    
+</body>
+</html>

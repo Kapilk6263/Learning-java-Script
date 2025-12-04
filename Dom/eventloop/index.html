@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <Script>
+
+        console.log("start");
+
+        setTimeout(()=>{
+            new Promise((res,rej)=>{
+                res("p1")
+            })
+        },3000)
+
+        new Promise((res,rej)=>{
+            res("p2")
+            setTimeout(()=>{
+                console.log("st3");
+            })
+        })
+        
+        new Promise((resolve,reject)=>{
+            resolve('p3')
+            setTimeout(()=>{
+                console.log("st2");
+            },0)
+        })
+        console.log("end");
+        
+    </Script>
+</body>
+</html>

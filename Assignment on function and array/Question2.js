@@ -19,3 +19,5 @@ let kk=arr.map((element)=>{
 })
 console.log(min);
 
+
+
