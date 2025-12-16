@@ -100,4 +100,40 @@
 
 
 
+//             **************JavaScript es features**************
+
+
+//Arrow function  ()=>{} 
+//Arrow function in javascript is shorter form to write a function 
+
+//Templete  
+// const name="kapil";
+// console.log(`hello ${name}`); 
+
+
+//Destructuring : Destruction is es6 feature of javaScript that is used to unpack value in variable of array and objects 
+// const arr=[2,3,4,5,6];
+// const [a,b,c,d,e]=arr;
+// console.log(a);
+
+//Spread operator 
+// const arr=[1,2,3]
+// const arr2=[...arr,4,5]
+// console.log(arr2);
+
+
+//async and await 
+// let data=async()=>{
+//     let response=await fetch("https://jsonplaceholder.typicode.com/todos/1");
+//     let data =await response.json();
+//     console.log(data);
+// }
+// data();
+
+//default paramter 
+// function name(age=21){
+//     console.log(`age is ${age}`);
+    
+// }
+// name();
 
