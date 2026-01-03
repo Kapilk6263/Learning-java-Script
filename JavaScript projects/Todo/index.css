@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: auto 0;
+} 
+
+
+#main-conatiner{
+    width: 500px;
+    height: 550px; 
+    background-color: #212121;  
+    border: none;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+} 
+
+.input-container{
+    height: 100px;
+    width: 380px; 
+    background-color: #fff; 
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px; 
+    display: flex;  
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+#AddTask{
+    height: 40px;
+    width: 100px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+} 
+
+#inputFeild{
+    height: 38px; 
+    width: 220px;
+    border-radius: 10px;
+   
+} 
+
+#heading{
+     color: white;
+     margin-top: 30px;
+} 
+
+#taskFeild{
+    height: 200px;
+    width: 380px;
+    background-color: #fff; 
+    overflow-y: auto;  
+} 
+
+
+#taskFeild li{ 
+    font-size: 40px;
+    display: flex; 
+    margin-left: 20px;
+    margin-top: 20px; 
+    width: 40vh; 
+    justify-content: space-around;
+
+    
+}
+
+#taskFeild li button{
+    height: 35px;
+    width: 60px;
+    background-color: #212121; 
+    border: none;
+    border-radius: 8px; 
+    color: #fff;
+   
+} 
+
+input[type="checkbox"] {
+  width: 30px; 
+  height: 30px; 
+  margin-top: 5px;
+}

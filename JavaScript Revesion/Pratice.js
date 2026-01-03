@@ -137,3 +137,54 @@
 // }
 // name();
 
+
+
+//             **************Closer And Lexical Scoping**************
+
+
+//lexical Scoping inner function can access the property from outer function but outer function cannot access the property from outer function
+
+// function Lexical(){
+//     let name="kapil"
+// //    console.log(surname); outer function cannot access of the property from inner function
+   
+//     function inner(){ 
+//         let surname="uplawdiya"
+//         console.log(name);
+        
+//     } 
+//     inner();
+// } 
+// Lexical()
+
+
+// Closer =Closer is object which is dynamically created when inner function access the property from outer function 
+
+// function Closer(){
+//     let name="kapil";
+//     let sername="uplawdiya" 
+//   return  function inner(){
+//        console.log(name);
+//     } 
+
+// }
+// Closer()();
+
+
+
+
+
+//             **************Binding in JavaScript**************
+
+const object={
+    name:"kapil",
+    surname:"Uplawdiya",
+    id:21,
+    age:22
+} 
+
+function Binding(){ 
+    console.log(this);
+    
+}
+Binding();

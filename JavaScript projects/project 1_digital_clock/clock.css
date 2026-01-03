@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+}
+
+#container{
+    height: 200px;
+    width: 400px;;
+    background-color: #A8BBA3;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+    
+}
+
+#hours,#minute,#second{
+    height: 50px;
+    width: 60px;
+    background-color: #715A5A;
+    border-radius: 10px;
+   font-size: 50px;
+
+} 
+
+#container:hover{
+    transform: scale(1.1);
+} 

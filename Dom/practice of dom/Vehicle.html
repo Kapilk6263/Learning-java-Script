@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AutoCare Pro</div>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#booking">Book Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Expert Vehicle Service You Can Trust</h1>
+            <p>From routine oil changes to complex engine repairs, we keep you on the road.</p>
+            <button onclick="location.href='#booking'">Schedule Service</button>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <article>
+                    <h3>Oil & Filter Change</h3>
+                    <p>Premium synthetic oil and high-quality filters.</p>
+                </article>
+                <article>
+                    <h3>Brake Inspection</h3>
+                    <p>Full safety checks and pad replacements.</p>
+                </article>
+                <article>
+                    <h3>Engine Diagnostics</h3>
+                    <p>State-of-the-art scanning for all makes and models.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="booking">
+            <h2>Book an Appointment</h2>
+            <form action="/submit-booking" method="POST">
+                <fieldset>
+                    <legend>Vehicle Information</legend>
+                    <label for="make">Vehicle Make:</label>
+                    <input type="text" id="make" name="make" placeholder="e.g. Toyota" required>
+
+                    <label for="service-type">Service Needed:</label>
+                    <select id="service-type" name="service-type">
+                        <option value="oil-change">Oil Change</option>
+                        <option value="brakes">Brakes</option>
+                        <option value="general">General Repair</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    <label for="date">Preferred Date:</label>
+                    <input type="date" id="date" name="date" required>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </fieldset>
+
+                <button type="submit">Confirm Booking</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AutoCare Pro. 123 Garage Lane, Motor City.</p>
+    </footer>
+</body>
+</html>
